@@ -1,0 +1,152 @@
+body 
+{   
+    background-image: linear-gradient(rgb(69, 165, 69), rgb(31, 121, 101));
+    /*background-color: rgb(43, 138, 117);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-bottom: 2px white dotted;
+    padding: 5%;
+}
+
+.companyName 
+{
+    font-size: 4vw;
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companyName img 
+{
+    margin: 5%;
+    max-width: 11vw; 
+    padding: 2px;
+    border: 3px black solid; 
+}
+
+.companySlogan 
+{
+    font-size: 2vw; 
+    margin: 0;
+    text-align: center;
+}
+
+.centerBase 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px white dotted;
+    padding: 2%;
+    width: 60%;
+    flex-grow: 1; 
+    min-height: 50vh;
+}
+
+.description 
+{
+    font-size: 1.2vw;
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+}
+
+.loginForm 
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    flex-direction: column; 
+    width: 100%;
+    min-height: 50vh;
+    border-radius: 4px;
+    font-size: 1.2vw; 
+
+}
+
+.signIn, .addUser 
+{
+    font-size: 1.2vw; 
+    margin: 0;
+    text-align: center;
+}
+button
+{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left:20px;
+}
+button:hover 
+{
+    background-color: #45a049;
+}
+
+footer 
+{
+    background-color: rgb(43, 138, 117);
+    color: #fff;
+    padding: 20px;
+    width: 100%; /* Varmistaa, että footer täyttää koko leveyden */
+    text-align: center;
+}
+
+.footerContainer 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 20px;
+}
+
+.footerSection 
+{
+    width: auto;
+    padding-right: 20px; 
+}
+
+.footerLogo 
+{
+    display: flex;
+    align-items: center;
+    justify-content: 20px; 
+}
+
+.footerLogo img 
+{
+    max-width: 8vw; 
+    border: 2px black solid;
+    padding: 2%;
+    margin-left: 20px;
+}
+.error-messages 
+{
+    color: green;
+    margin-top: 10px;
+    font-size: 1.2vw; 
+}

@@ -1,0 +1,144 @@
+body 
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+header 
+{
+    background-color: grey; /* Taustaväri headerille */
+    width: 80%;
+}
+
+.headerContainer 
+{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 0 auto; 
+    padding:4%;
+}
+
+.logo 
+{
+    max-width: 12vw; 
+}
+
+.companyInfo 
+{
+    text-align: center;
+    margin-right: 10%;
+}
+
+.companyName a 
+{
+    font-size: 5vw; 
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.companySlogan a 
+{
+    font-size: 2vw; 
+    color: white;
+    text-decoration: none;
+}
+.navigaatio 
+{
+    width: 60%;
+    display: flex;
+    margin:auto;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.navigaatio a 
+{
+    display: inline-block;
+    background-color: rgb(70, 68, 68);
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    text-decoration: none;
+    margin: 0 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border:2px white solid;
+}
+
+.navigaatio a:hover 
+{
+    background-color: rgb(187, 185, 185);
+}
+
+.centerBase 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    width: 80%;
+    min-height: 50vh;
+    border-left: 1px rgb(173, 172, 172) solid;
+    border-right: 1px rgb(173, 172, 172) solid;
+}
+
+.description 
+{
+    font-size: 1.2vw;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+footer 
+{
+    background-color: rgb(173, 172, 172);
+    color: rgb(54, 48, 48);
+    position: relative;
+    width: 80%;
+}
+
+.footerContainer 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width:90%;
+}
+
+.footerSection 
+{
+    width: 60%;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.footerLogo 
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%; 
+}
+
+.footerLogo img 
+{
+    max-width: 10vw;
+    padding: 2%;
+}
+.copyright
+{
+    border-top: 3px white dotted;
+    text-align: left;
+    justify-content: center;
+    padding-left: 40px;
+}

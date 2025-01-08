@@ -1,0 +1,189 @@
+body /*TESTI TESTI TESTI*/
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    font-family: Arial, sans-serif; 
+}
+
+header 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5%;
+}
+.headerContainer /* lisätty 17.11 */
+{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 0 auto; 
+    padding:4%;
+}
+.logo /* lisätty 17.11 */
+{
+    max-width: 12vw; 
+}
+.companyName a /* a lisätty 17.11 */
+{
+    font-size: 4vw;
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companyName img 
+{
+    margin: 5%;
+    max-width: 11vw; 
+    padding: 2px;
+    border: 3px black solid; 
+}
+
+.companySlogan /* a lisätty 17.11 */
+{
+    font-size: 2vw; 
+    margin: 0;
+    text-align: center;
+}
+
+.centerBase 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    padding: 2%; 
+    width: 60%;
+    min-height: 50vh;
+}
+
+.description 
+{
+    font-size: 1.2vw;
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+}
+
+.loginForm 
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    flex-direction: column; 
+    width: 100%;
+    min-height: 50vh;
+    border-radius: 4px;
+    font-size: 1.2vw; 
+
+}
+
+.signIn, .addUser 
+{
+    font-size: 1.2vw; 
+    margin: 0;
+    text-align: center;
+}
+button
+{
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left:20px;
+}
+button:hover 
+{
+    background-color: grey;
+}
+
+footer 
+{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    position: relative; 
+}
+
+.footerContainer 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10% auto;  /* 10% lisätty 17.11 */
+    
+}
+
+.footerSection 
+{
+    width: 60%;
+    padding-right: 50px;
+    padding-left: 10px; /* lisätty 17.11 */ 
+}
+
+.footerLogo 
+{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.footerLogo img 
+{
+    max-width: 8vw; 
+    border: 2px black solid;
+    padding: 2%;
+}
+.error-messages 
+{
+    color: green;
+    margin-top: 10px;
+    font-size: 1.2vw; 
+}
+.copyright /* lisätty 17.11 */
+{
+    border-top: 3px white dotted;
+    text-align: left;
+    justify-content: center;
+    padding-left: 40px;
+}
+.navigaatio /* lisätty 17.11 */
+{
+    width: 100%;
+    display: flex;
+    margin:auto;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.navigaatio a /* lisätty 17.11 */
+{
+    display: inline-block;
+    background-color: rgb(70, 68, 68);
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    text-decoration: none;
+    margin: 0 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border:2px white solid;
+}
